@@ -1,5 +1,15 @@
+class ManyThings {
 
-//noinspection ScalaFileName
+  def bleh(a: Int): Int = {
+    a * 5
+  }
+}
+
+object ManyThings {
+
+}
+
+
 trait GenericMatchedID {
 }
 
@@ -14,7 +24,9 @@ trait Providing extends GenericMatchedID {
 
 }
 
+object Providing {
 
+}
 
 
 trait Building extends GenericMatchedID{
